@@ -19,9 +19,9 @@ void output(float x1,float y1,float x2, float y2,float distance)
 
 int main()
 {
-  float a,b,c,d,result;
-  input(&a,&b,&c,&d);
-  find_distance(a,b,c,d,&result);
-  output(a,b,c,d,result);
+  float l,m,n,q,result;
+  input(&l,&m,&n,&q);
+  find_distance(l,m,n,q,&result);
+  output(l,m,n,q,result);
   return 0;
 }
