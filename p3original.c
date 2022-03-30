@@ -1,10 +1,10 @@
 #include <stdio.h>
 int input_number()
 {
-  int num;
+  int a;
   printf("enter the number:\n");
-  scanf("%d",&num);
-  return num;
+  scanf("%d",&a);
+  return a;
 }
 
 int is_prime(int n)
